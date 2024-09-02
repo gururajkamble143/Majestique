@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cssStyle/indexStyle.css">
+    <link rel="stylesheet" href="../cssStyle/indexStyleMediaQuery.css">
+    <link rel="stylesheet" href="/jspPages/aboutus.css">
+
+    <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+
+    <title>Majestique</title>
+</head>
+<body>
+    <div class="mlogo">MAJESTIQUE</div>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="/htmlpages/index.html">MAJESTIQUE</a></div>
+            <ul class="links">
+                <li><a href="/getNewArrival">NEW ARRIVALS</a></li>
+
+                <!-- <li><a href="#">Men</a></li> -->
+
+                <div class="dropdown">
+                    <button class="dropbtn">MEN</button>
+                    <div class="dropdown-content">
+                      <a href="/getTshirts">T-SHIRTS</a>
+                      <a href="/getMenJeans">JEANS</a>
+                      <a href="/getshirts">SHIRTS</a>
+                      <a href="/getBlazer">BLAZERS</a>
+                      <a href="/getTrousers">TROUSERS</a>
+                    </div>
+                </div>
+
+                <!-- <li><a href="#">WOMEN</a></li> -->
+
+                <div class="dropdown">
+                    <button class="dropbtn">WOMEN</button>
+                    <div class="dropdown-content">
+                      <a href="/getTops">TOPS</a>
+                      <a href="/getWomenjeans">JEANS</a>
+                      <a href="/getWomenshirts">SHIRTS</a>
+                      <a href="/getDresses">DRESSES</a>
+                      <a href="/getTunics">TUNICS</a>
+                    </div>
+                </div>
+
+                <!-- <li><a href="#">EXPLORE MORE</a></li> -->
+
+                <div class="dropdown">
+                    <button class="dropbtn">EXPLORE MORE</button>
+                    <div class="dropdown-content">
+                      <a href="/jspPages/aboutus.html">ABOUT US</a>
+                      <a href="/jspPages/contactus.html">CONTACT</a>
+                      <a href="#">BLOGS</a>
+                    </div>
+                </div>
+
+                <li><a href="#">STORES</a></li>
+                <li><a href="/getCart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+            <a href="/login" class="action_btn">LOGIN</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu open">
+            <li><a href="/getNewArrival">NEW ARRIVALS</a></li>
+            <li><a href="/getBlazer">MEN</a></li>
+            <li><a href="/getTops">WOMEN</a></li>
+            <li><a href="/jspPages/contactus.html">EXPLORE MORE</a></li>
+            <li><a href="#">STORES</a></li>
+            <li><a href="/getCart"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <li><a href="/login" class="action_btn">LOGIN</a></li>
+        </div>
+    </header>
+    <hr>
+
+<!-- ########################################################################################## -->
+
+    
+    <div class="contact">
+        <h1>CONTACT US</h1>
+    </div>
+    <div class="contactdata">
+        <div class="div1">
+            <img src="/jspPages/18.png" alt="">
+        </div>
+        <div class="div2">
+            <div class="contact1">
+                <h3>CALL US : </h3>
+                <p>&emsp; &emsp; 9730681250, 8007414869</p><br>
+            </div>
+            <div class="contact2">
+                <h3>EMAIL US : </h3>
+                <p>&emsp; &emsp; GURURAJKAMBLE143@GMAIL.COM, SAIYANGURU143@GMAIL.COM</p><br>
+            </div>
+            <div class="contact3">
+                <h3>ADDRESS</h3>
+                <p>&emsp; &emsp; SPARK IT INSTITUTE, BHANDARKAR ROAD, PUNE.</p><br>
+            </div>
+            <div class="contact4">
+                <h3>VISIT US</h3>
+                <p>&emsp; &emsp; COME TO THE ABOVE ADDREDD AND BUY THE FRANCHISE. &#x1F60D;</p><br>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- ########################################################################################## -->
+
+    <footer>
+        <div class="footer-contents">
+            <img src="/assets/favicon.png" alt="Logo" style="height: 150px;">
+            <h2>MAJESTIQUE</h2>
+            <p>You car buy premium quality clothing from our website and you can also visit our nearest stores.</p>
+            <ul class="footerlinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">More Brands</a></li>
+                <li><a href="#">Information</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Spark. designed by <span>Gururaj</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+        // Script for drop down menu
+
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function()
+        {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+
+        // script for video slider navigation
+
+        const btns = document.querySelectorAll('.nav-btn')
+        const slides = document.querySelectorAll('.video-slide')
+        const contents = document.querySelectorAll('.content')
+
+        var sliderNav = function(manual)
+        {
+            btns.forEach((btn)=>{
+                btn.classList.remove("active");
+            });
+
+            slides.forEach((slide)=>{
+                slide.classList.remove("active");
+            });
+
+            contents.forEach((content)=>{
+                content.classList.remove("active");
+            });
+
+            btns[manual].classList.add("active");
+            slides[manual].classList.add("active");
+            contents[manual].classList.add("active");
+        }
+
+        btns.forEach((btn, i)=>{
+            btn.addEventListener("click", ()=>{
+                sliderNav(i)
+            });
+        });
+    </script>
+</body>
+</html>

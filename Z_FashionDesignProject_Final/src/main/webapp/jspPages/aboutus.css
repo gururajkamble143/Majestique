@@ -1,0 +1,129 @@
+/* About us */
+.about
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(245, 248, 248);
+    color: rgb(75, 67, 67);
+}
+.behind
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    background-color: rgb(239, 243, 243);
+    color: rgb(68, 63, 63);
+}
+.behinddata
+{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 248, 248);
+    font-size: 15px;
+    text-align: center;
+    color: rgb(97, 88, 88);
+}
+
+/* Contact us */
+.contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(245, 248, 248);
+    color: rgb(75, 67, 67);
+}
+.contactdata
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.div1
+{
+    width: 50%;
+    background-color: rgb(239, 243, 243);
+    height: 80vh;
+    /* padding-top: 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div1 img
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 4px;
+}
+.div2
+{
+    color: rgb(97, 88, 88);
+    width: 50%;
+    background-color: rgb(239, 243, 243);
+    height: 80vh;
+    padding-top: 100px;
+    /* padding-left: 30px; */
+}
+
+/* Blogs */
+
+.blogspage
+{
+    background-color: rgb(240, 237, 243);
+    /* padding-left: 200px; */
+    /* padding-top: 100px; */
+}
+.blogtitle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(245, 248, 248);
+    color: rgb(75, 67, 67);
+}
+.blogcontent
+{
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-right: 200px;
+    color: rgb(97, 88, 88);
+}
+.blogcontent h2
+{
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.blogcontent p
+{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.blogcontent img
+{
+    /* height: 80%; */
+    width: 80%;
+    padding-bottom: 20px;
+}
+.blogcontent button
+{
+    width: 130px;
+    height: 45px;
+    margin-bottom: 50px;
+    background-color: #d6d3d3;
+    border-radius: 3px;
+    border: none;
+}
+.blogcontent button:hover
+{
+    background-color: black;
+    color: #fff;
+}

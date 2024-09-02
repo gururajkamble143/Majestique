@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../cssStyle/indexStyle.css">
+    <link rel="stylesheet" href="../cssStyle/indexStyleMediaQuery.css">
+    <link rel="stylesheet" href="../cssStyle/getproductsstyle.css">
+    <title>Majestique</title>
+</head>
+<body>
+    <div class="mlogo">MAJESTIQUE</div>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a href="#">MAJESTIQUE</a></div>
+            <ul class="links">
+                <li><a href="#">NEW ARRIVALS</a></li>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">EXPLORE MORE</a></li>
+                <li><a href="#">STORES</a></li>
+                <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+            <a href="#" class="action_btn">LOGIN</a>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu open">
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">MEN</a></li>
+            <li><a href="#">WOMEN</a></li>
+            <li><a href="#">EXPLORE MORE</a></li>
+            <li><a href="#">STORES</a></li>
+            <li><i class="fa-solid fa-bag-shopping"></i></li>
+            <li><a href="#" class="action_btn">LOGIN</a></li>
+        </div>
+    </header>
+    <hr> 
+    
+
+    <!-- ########################################################################## -->
+    <div class="adminbuttons">
+        <h1 style="text-align: center;">ADD PRODUCTS T0 DATABASE</h1>
+        <a href="/admin"><button>Blazer</button></a>
+        <a href="/dresses"><button>Dresses</button></a>
+        <a href="/menjeans"><button>Men Jeans</button></a>
+        <a href="/newarrival"><button>New Arrival</button></a>
+        <a href="/shirts"><button>Shirts</button></a>
+        <a href="/tops"><button>Tops</button></a>
+        <a href="/trousers"><button>Trousers</button></a>
+        <a href="/tshirts"><button>T-shirt</button></a>
+        <a href="/tunics"><button>Tunics</button></a>
+        <a href="/womenjeans"><button>Women Jeans</button></a>
+        <a href="/womenshirts"><button>Women Shirts</button></a>
+        <a href="/newbutton"><button>New Button</button></a>
+    </div>
+    <!-- ################################################################################ -->
+
+    <footer>
+        <div class="footer-contents">
+            <h2>MAJESTIQUE</h2>
+            <p>You car buy premium quality clothing from our website and you can also visit our nearest stores.</p>
+            <ul class="footerlinks">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">More Brands</a></li>
+                <li><a href="#">Information</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy;2023 Spark. designed by <span>Gururaj</span></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    // Script for drop down menu
+
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const toggleBtnIcon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+        
+        toggleBtn.onclick = function()
+        {
+            dropDownMenu.classList.toggle('open')
+            const isOpen = dropDownMenu.classList.contains('open')
+
+            toggleBtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+
+        </script>
+
+</body>
+</html>
+
+</body>
+</html>

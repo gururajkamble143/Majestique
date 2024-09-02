@@ -1,0 +1,64 @@
+.reg
+{
+    /* background-color: aquamarine; */
+    margin-left: 9.2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.reg h2
+{
+    color: #141414d2;
+}
+.regform
+{
+    background-color: rgba(218, 212, 218, 0.37);
+    /* height: 100vh; */
+}
+.regform h3
+{
+    padding-top: 20px;
+    margin-left: 9.2rem;
+    margin-bottom: 3rem;
+}
+.regform p
+{
+    padding-top: 20px;
+    font-size: 12px;
+    margin-left: 10rem;
+    margin-top: 30px;
+    color: rgb(143, 136, 136);
+}
+.regform input
+{
+    margin-left: 10rem;
+    width: 78%;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.regform button
+{
+    height: 60px;
+    width: 78%;
+    margin-left: 10rem;
+    margin-bottom: 60px;
+    border-radius: 6px;
+    font-size: 25px;
+    background-color: rgb(188, 188, 188);
+    cursor: pointer;
+    border: none;
+}
+.regform button:hover
+{
+    color: #fff;
+    background-color: rgb(29, 28, 28);
+}
+.here
+{
+    margin-top: -40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 110px;
+}

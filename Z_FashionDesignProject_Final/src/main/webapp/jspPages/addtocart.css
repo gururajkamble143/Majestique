@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+.cart
+{
+	min-height: 100vh;
+	background-color: rgba(247, 243, 243, 0.616);
+	padding-bottom: 100px;
+}
+.carthead
+{
+	padding-top: 30px;
+	text-align: center;
+}
+.carthead h2
+{
+	color: rgb(53, 49, 49);
+	font-size: 35px;
+}
+.carthead p
+{
+	color: rgb(80, 71, 71);
+	text-decoration: underline;
+	padding-bottom: 50px;
+}
+.cartcontent
+{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.carttable
+{
+	margin-top: 30px;
+	/* margin-left: 30px; */
+	margin-bottom: 30px;
+}
+.carttable td
+{
+	color: rgb(75, 68, 68);
+	padding-left: 100px;
+}
+.carttable td ul
+{
+	padding-right: 50px;
+}
+.carttotal
+{
+	margin-top: 50px;
+	margin-left: 70%;
+}
+.carttotal p
+{
+	margin-top: 20px;
+	color: rgb(51, 47, 47);
+}
+.tot
+{
+	font-size: 20px;
+}
+.tax
+{
+	font-size: 13px;
+}
+.check
+{
+	margin-top: 30px;
+	width: 150px;
+	height: 40px;
+	background-color: rgb(224, 223, 222);
+	border: none;
+	border-radius: 3px;
+	font-size: 16px;
+}
+.check:hover
+{
+	background-color: rgb(12, 12, 12);
+	color: #fff;
+}
+.td3 input
+{
+	background-color: #ebe5e5c4;
+	border: none;
+	height: 50px;
+	width: 50px;
+	padding-left: 17px;
+	padding-right: 5px;
+	border-radius: 4px;
+	
+}
